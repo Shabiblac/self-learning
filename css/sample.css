@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    background-color: #665346;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li{
+    float: left;
+    
+}
+li a{
+    text-decoration: none;
+    color: #FBFBFB;
+    display: inline-block;
+    padding: 26px 30px;
+    text-align: center;
+    height: 70px;
+}
+a:hover{
+    color: burlywood;
+    border-bottom: 4px solid #8E8076;
+
+}
+a.active{
+    background-color: #a88776;
+}
+.pchase{
+    float: right;
+}
+a.buy{
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 26px 30px;
+    background-color: #DF936D;
+    color: #F7E3D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.buy:hover{
+    color: lightsalmon;
+    font-weight: bolder;
+    border-bottom: 4px solid #F2D7C9;
+
+}
+.cotainer{
+    overflow: hidden;
+}
+img{
+    float: right;
+}
